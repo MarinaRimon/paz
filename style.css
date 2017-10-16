@@ -1,16 +1,13 @@
-
 * {
     box-sizing: border-box;
 }
 
-
-
 body {
     direction: rtl;
     background-color: line-edge;
-    color:blue;
-    
-  }
+    color: blue;
+}   
 
-
-  
+div {
+    color:green;
+}
