@@ -1,39 +1,38 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
     direction: rtl;
-    border: 2px solid rgb(0, 255, 55);
     margin-top: 0;
 }
 
 .top_menu_nav_row {
     background-color: gray;
-    padding: 0 0 0 0;
-    top: 0;
+    padding-top: 50px;
     margin: 0;
 }
 
 .ul_top {
     text-align: center;
-    background-color:black;
-    height: 120px;
-  
+    background-color:green;
+    padding: 0;
 }
 
 .li_top {
     border: 1px solid rgb(74, 218, 138);
     display: inline-block;
     padding-top: 30px;
-    padding-left: 100px;
-    width: 180px;
+    padding-left: 102px;
+    padding-bottom: 10px;
+    width: 185px;
     text-align: center;
 }
 
 .a_top {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
