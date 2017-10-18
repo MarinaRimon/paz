@@ -99,13 +99,34 @@ body {
 .column1 {
     float: right;
     width: 490px;
-    height: 300px;
+    height: 400px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-right: 6px;
     border: 1px solid black;
+    position:relative;
+    z-index: 1;
 }
 
+.unser_column1 {
+    float: right;
+    right: 100px;
+    position:absolute;
+    z-index: 2;
+    border: 3px solid palevioletred;
+    width: 350px;
+    height: 150px;
+    top:250px;
+    margin-bottom: 100px;
+    border-bottom-right-radius:2em;
+    
+}
+
+.column1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .top_3_image_row>.column1>img {
     height: 290px;
     margin: auto;
